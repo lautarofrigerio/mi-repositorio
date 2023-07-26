@@ -1,0 +1,449 @@
+
+body {
+    background-color: red;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* INICIO */
+
+            /* HEADER */
+
+.header-inicio {
+    background-color: rgb(192, 3, 3);
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+
+#contac-inicio {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    display: inline;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nos-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ubi-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  /* ESTRUCTURA */
+
+.titulo-inicio {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+ }
+.span-inicio {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fotos-inicio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto-inicio1 {
+    margin-top: 30px;
+    display: inline;
+    border-radius: 15px;
+    border: yellow solid 2px;
+    justify-content: space-around;
+}
+
+.foto-inicio2 {
+    margin-top: 30px;
+    border-radius: 15px;
+    border: yellow solid 2px;
+}
+
+/* CONTACTANOS */
+
+.titulo2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.redes {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-right: 50px;
+}
+
+.insta {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.face {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.número {
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 30px;
+}
+ /* NOSOTROS */
+
+ .titulo-nos {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+ }
+
+.titulo-svs {
+    font-size: 30px;
+    color: white;
+}
+
+ .servicios {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding-right: 150px;
+    border: solid black 1px;
+    border-radius: 70px;
+    padding-left: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+ .foto-nos {
+    position: absolute;
+    width: 500px;
+    margin-left: 80px;
+    top: 1050px;
+    border-radius: 40px;
+ }
+
+ .titulo-filo {
+    font-size: 30px;
+    color: white;
+ }
+
+.texto-filo {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.titulo-promo {
+    font-size: 30px;
+    color: white;
+}
+
+.texto-promo {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+.conclusión {
+    font-size: 30px;
+    color: white;
+}
+
+.texto-conclución {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    padding-right: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+/* UBICACIÓN */
+
+.titulo-ubi {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.maps {
+    border-radius: 30px;
+    display: flex; 
+    width: 800px;
+    position: absolute;
+    right: 30px;
+    top: 1830px;
+}
+
+.horario {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border: solid black 1px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(192, 3, 3);
+    justify-content: space-around;
+    border-top: black solid 2px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+
+#contac-footer {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    display: inline;
+    margin-right: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nos-footer {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#inicio-footer {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTACTANOS */
+
+.header-inicio {
+    background-color: rgb(192, 3, 3);
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+.contac-inicio {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    display: inline;
+
+}
+
+.nos-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
+.ubi-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
+/* NOSOTROS */
+
+.header-inicio {
+    background-color: rgb(192, 3, 3);
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+.contac-inicio {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    display: inline;
+
+}
+
+.nos-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
+.ubi-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
+/* UBICACIÓN */
+
+.header-inicio {
+    background-color: rgb(192, 3, 3);
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+.contac-inicio {
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    display: inline;
+
+}
+
+.nos-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
+.ubi-inicio {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    margin-left: 100px;
+}
+
